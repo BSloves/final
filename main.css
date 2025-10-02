@@ -7,6 +7,7 @@ body {
 .wrapper {
   max-width: 960px;
   padding: 1rem;
+  margin: 0 auto;
 }
 
 header {
@@ -40,30 +41,4 @@ nav a {
 nav a:hover {
   background-color: black;
   border-radius: 2rem;
-}
-
-.blurb {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
-  background-color: #d2b48c;
-  padding: 2rem;
-  margin-top: 1rem;
-  border-radius: 1rem;
-  box-shadow: 1px 1px 5px #987554;
-}
-
-.blurb img {
-  border-radius: 7rem;
-  width: 13rem;
-  border: 4px solid black;
-}
-
-.blurb h1 {
-  font-size: 1.5rem;
-}
-
-.blurb p {
-  line-height: 1.3;
 }
