@@ -11,13 +11,23 @@ body {
 }
 
 header {
+  color: antiquewhite;
+  background-color: #61412c;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 5px #664229;
+  margin: 1rem 0;
   text-align: center;
-  padding: 2rem;
+  padding: 0 0 1rem .5rem;
+  letter-spacing: 5px ;
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: 6rem;
+  font-family: "Monofett", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
+
 
 nav {
   background-color: #61412c;
@@ -44,4 +54,26 @@ nav a {
 nav a:hover {
   background-color: black;
   border-radius: 2rem;
+}
+
+footer {
+  background-color: #61412c;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 5px #664229;
+  padding: .65rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+footer a {
+  font-size: 160%;
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+footer a:hover {
+  color: black;
+  text-shadow: 0 0 5px #664229;
 }
