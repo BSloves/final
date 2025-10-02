@@ -28,10 +28,13 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav li {
   list-style-type: none;
   padding: 1rem;
 }
-
 nav a {
   color: antiquewhite;
   text-decoration: none;
