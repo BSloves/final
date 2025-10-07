@@ -15,6 +15,10 @@
   clear: both;
 }
 
+.box_text {
+  padding-right: 1rem;
+}
+
 .box_text h2 {
   font-size: 1.15rem;
   margin-bottom: .5rem;
@@ -28,6 +32,7 @@
   margin: 1rem 1rem 1rem 1rem;
   float: left;
 }
+
 .box {
   display: flex;
   align-items: center;
@@ -35,4 +40,10 @@
   border-radius: 1rem;
   box-shadow: inset 1px 1px 20px #987554;
   margin-bottom: 1rem;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
