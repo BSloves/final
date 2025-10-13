@@ -1,27 +1,11 @@
-.blurb {
-  display: block;
-  background-color: #d2b48c;
-  padding: 2rem;
-  margin-top: 1rem;
-  border-radius: 1rem;
-  box-shadow: 1px 1px 5px #987554;
-}
 
-.blurb h1 {
-  font-size: 1.5rem;
-  text-align: center;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid black;
-  clear: both;
-}
-
-.box_text h2 {
+.box h2 {
   font-size: 1.15rem;
   margin-bottom: .5rem;
   margin-top: 1rem;
 }
 
-.box_text h3 {
+.box h3 {
   line-height: 1.5rem;
 }
 
@@ -37,26 +21,13 @@
 }
 .box img {
   max-width: 100px;
-  border-radius: 1rem;
-  border: 3px solid black;
-  margin: 1rem 1rem 1rem 1rem;
-  float: left;
-}
-.box {
-  display: flex;
-  align-items: center;
-  border: 2px solid black;
-  border-radius: 1rem;
-  box-shadow: inset 1px 1px 20px #987554;
-  margin-bottom: 1rem;
 }
 
 .work {
   margin-top: 1rem;
 }
 
-.box_text li {
+.box li {
   margin: .5rem 1rem;
   line-height: 1.3;
 }
-

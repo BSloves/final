@@ -1,0 +1,17 @@
+
+h2 {
+  text-align: left;
+  margin: 1.5rem 0 .5rem .5rem;
+  color: black;
+  border-bottom: 2px solid black;
+  padding: .25rem;
+}
+
+.blurb p {
+  line-height: 1.3;
+  clear: none;
+}
+
+.blurb p a {
+  color: black;
+}
